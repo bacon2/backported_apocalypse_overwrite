@@ -7,7 +7,7 @@ execute if predicate apocalypse_overwrite:1_in_70 as @a[nbt={Dimension:"minecraf
 advancement grant @a[scores={kill_zombies=30..}, advancements={apocalypse_overwrite:eye_couch=false}] only apocalypse_overwrite:eye_couch
 advancement grant @a[scores={kill_zombies=3000..}, advancements={apocalypse_overwrite:eye_couch_couch_eye=false}] only apocalypse_overwrite:eye_couch_couch_eye
 execute as @e[nbt={SaddleItem:{id:"minecraft:saddle"}}, type=zombie_horse] at @s if entity @p[distance=..2] run advancement grant @p only apocalypse_overwrite:green_transportation
-execute as @e[tag=police_dog] run attribute @s minecraft:attack_damage base set 16
+execute as @e[tag=police_dog] run attribute @s minecraft:generic.attack_damage base set 16
 execute if predicate apocalypse_overwrite:1_in_30 at @e[type=minecraft:zombie, limit=1, sort=random] run summon minecraft:snowball ~ ~3 ~ {Tags:[aggravator]}
 execute as @e[tag=aggravator] at @s run data modify entity @s Owner set from entity @p UUID
 execute as @e[type=minecart] run data modify entity @s Air set value 0s
