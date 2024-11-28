@@ -1,0 +1,293 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 16707231
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Blonde Wig"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 16351261
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Red Wig"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 3221541
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Black Wig"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 6964782
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Brown Wig"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 2659450
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 1908001
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 16383998
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 15308591
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Shirt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 2644058
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 9022894
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 3290681
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 13864494
+                            },
+                            "function": "minecraft:set_components"
+                        },
+                        {
+                            "function": "set_name",
+                            "target": "item_name",
+                            "name": "Pants"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 3,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 4148763
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 15961002
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 16383998
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "components": {
+                                "minecraft:dyed_color": 14129300
+                            },
+                            "function": "minecraft:set_components"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

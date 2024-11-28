@@ -1,0 +1,11 @@
+[
+  {
+    "function": "modify_contents",
+    "component": "charged_projectiles",
+    "modifier": {
+      "function":"set_count",
+      "count": -1,
+      "add": true
+    }
+  }
+]

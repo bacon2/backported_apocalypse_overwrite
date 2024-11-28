@@ -1,0 +1,262 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 30,
+                "max": 64,
+                "type": "minecraft:uniform"
+              }
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Paper Towel"
+            }
+          ],
+          "name": "minecraft:paper"
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "duration": 200,
+                      "amplifier": 4
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "duration": 200,
+                      "amplifier": 2
+                    }
+                  ],
+                  "custom_color": 16711680
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Concentrated Red Vinegar"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "duration": 1000,
+                      "amplifier": 10
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "duration": 1000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 255
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Toilet Cleaner"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:hunger",
+                      "duration": 200,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 13158500
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Cookiedough Air Freshener"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:poison",
+                      "duration": 2000,
+                      "amplifier": 0
+                    },
+                    {
+                      "id": "minecraft:blindness",
+                      "duration": 2000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 16777215
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Stain Remover"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "duration": 1000,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:nausea",
+                      "duration": 700,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "duration": 1100,
+                      "amplifier": 127
+                    }
+                  ],
+                  "custom_color": 25600
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Weed Killer"
+            }
+          ],
+          "name": "minecraft:lingering_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "duration": 1000,
+                      "amplifier": 2
+                    },
+                    {
+                      "id": "minecraft:slowness",
+                      "duration": 1000,
+                      "amplifier": 10
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "duration": 1000,
+                      "amplifier": 2
+                    }
+                    ,
+                    {
+                      "id": "minecraft:darkness",
+                      "duration": 1000,
+                      "amplifier": 0
+                    }
+                  ],
+                  "custom_color": 0
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Keep Out of Reach of Children"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "duration": 1000,
+                      "amplifier": 127
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "duration": 1000,
+                      "amplifier": 128
+                    }
+                  ],
+                  "custom_color": 7452847
+                }
+              },
+              "function": "minecraft:set_components"
+            },
+            {
+              "function": "set_name",
+              "target": "item_name",
+              "name": "Penicillin"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        }
+      ]
+    }
+  ]
+}

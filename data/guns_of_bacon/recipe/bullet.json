@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:gunpowder",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "minecraft:gunpowder",
+    "count": 9,
+    "components": {
+      "minecraft:item_name": "'Bullet'",
+      "minecraft:custom_model_data": 5832
+    }
+  }
+}

@@ -1,0 +1,1 @@
+give @p gunpowder[item_name="Bullet", minecraft:custom_model_data=5832] 16
